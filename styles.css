@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+}
+
+.radio-button {
+    width: 300px;
+    height: 300px;
+    border: none;
+    border-radius: 10%;
+    background: url('play-icon.png') no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+    outline: none;
+}
+
+.radio-button.pulse {
+    animation: pulse 2s infinite;
+}
+
+.radio-button.playing {
+    background: url('stop-icon.png') no-repeat center center;
+    background-size: cover;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
