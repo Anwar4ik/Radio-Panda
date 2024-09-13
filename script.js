@@ -1,5 +1,5 @@
 let isPlaying = false;
-const audio = new Audio('http://v98257k1.beget.tech');
+const audio = new Audio('https://stream.zeno.fm/zzr7db0h0iquv');
 
 function toggleRadio() {
     const button = document.getElementById('radioButton');
