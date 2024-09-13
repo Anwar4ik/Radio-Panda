@@ -1,5 +1,5 @@
 let isPlaying = false;
-const audio = new Audio('https://your-radio-stream-url');
+const audio = new Audio('http://v98257k1.beget.tech');
 
 function toggleRadio() {
     const button = document.getElementById('radioButton');
